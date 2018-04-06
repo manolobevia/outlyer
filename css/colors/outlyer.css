@@ -1,0 +1,373 @@
+/* =============================================
+	Color: Outlyer Theme
+================================================ */
+.intro::before {
+  /* #63AFE6
+  rgb(99,175,230)
+
+    #57C7B7 */
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#63afe6+0,57c7b7+100 */
+  background: rgb(99,175,230); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(99,175,230,1) 0%, rgba(87,199,183,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(99,175,230,1) 0%,rgba(87,199,183,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(99,175,230,1) 0%,rgba(87,199,183,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63afe6', endColorstr='#57c7b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #48CC8C;
+}
+.panel-body p.active,
+.panel-title a.active {
+  color: #48CC8C !important;
+}
+
+/*.panel-title>.small,
+.panel-title>.small>a,
+.panel-title>a,
+.panel-title>small,
+.panel-title>small>a {
+    color: #48CC8C
+}
+*/
+
+header .is-sticky nav.navbar .navbar-morki ul.nav li.active a {
+    color: #63AFE6;
+}
+header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a {
+    background: #63AFE6;
+}
+header .is-sticky nav.navbar .navbar-morki ul.nav li a:hover {
+    color: #63AFE6;
+}
+header nav.navbar .navbar-morki ul.nav li a:focus {
+    color: #63AFE6;
+}
+.intro .intro-info .intro-info-content ul li:first-child a {
+    color: #63AFE6;
+}
+.section-header h2::before {
+    background: #63AFE6;
+}
+.services .service-box .icon {
+    border: 2px solid #63AFE6;
+}
+.services .service-box:hover .icon {
+    background: #63AFE6;
+    border-color: #63AFE6;
+}
+.services .service-box .icon::after {
+    background: #63AFE6;
+}
+.services .service-box:hover a {
+    color: #63AFE6;
+}
+.about-app .app-info h2 span {
+    color: #63AFE6;
+}
+.about-app .app-info ul li::before {
+    color: #63AFE6;
+}
+.app-features .features-left .feature-single .feature-icon span {
+    color: #63AFE6;
+}
+.app-features .features-left .feature-single:hover .feature-icon span::before {
+    background: #63AFE6;
+}
+.app-features .features-right .feature-single .feature-icon span {
+    color: #63AFE6;
+}
+.app-features .features-right .feature-single:hover .feature-icon span::before {
+    background: #63AFE6;
+}
+.video-featured::before {
+    background: rgba(239, 73, 77, 0.95);
+}
+.video-featured a.video-btn span:first-child {
+    color: #63AFE6;
+}
+.screenshots .screenshot-gallery .screenshot-single figure figcaption a::before,
+.screenshots .screenshot-gallery .screenshot-single figure figcaption a::after {
+    background: #63AFE6;
+}
+.screenshots .gallery-info a {
+    background: #63AFE6;
+}
+.screenshots .owl-dots .owl-dot span::before {
+    border: 2px solid #63AFE6;
+}
+.screenshots .owl-dots .owl-dot.active span::before {
+    background: #63AFE6;
+}
+.screenshots .owl-dots .owl-dot span {
+    border: 2px solid #63AFE6;
+}
+.counters .counter-box div {
+    color: #63AFE6;
+}
+.counters .counter-box:hover div::before {
+    background: #63AFE6;
+    border-color: #63AFE6;
+}
+.counters .counter-box span {
+    color: #63AFE6;
+}
+.price-table .price-table-wrapper .price-header span.price {
+    color: #63AFE6;
+}
+.price-table .price-table-wrapper .price-btn a {
+    border: 2px solid #63AFE6;
+    color: #63AFE6;
+}
+.price-table .price-table-wrapper:hover .price-btn a {
+    background: #63AFE6;
+}
+.price-table .price-table-wrapper.price-table-featured::before {
+    background: #63AFE6;
+}
+.price-table .price-table-wrapper.price-table-featured .price-btn a {
+    background: #63AFE6;
+}
+.testimonial .testimonial-slider .slide-single .client-info ul li.client-image::before {
+    background: #63AFE6;
+}
+.testimonial .owl-dots .owl-dot.active span::before {
+    background: #63AFE6;
+}
+.testimonial .owl-dots .owl-dot span::before {
+    border: 2px solid #63AFE6;
+}
+.testimonial .owl-dots .owl-dot span {
+    border: 2px solid #63AFE6;
+}
+.team .team-carousel .team-single figure figcaption {
+    background: rgba(99,175,230, 0.9);
+}
+.team .team-carousel .team-single figure figcaption div ul li a:hover {
+    color: #63AFE6;
+}
+.team .owl-dots .owl-dot.active span::before {
+    background: #63AFE6;
+}
+.team .owl-dots .owl-dot span::before {
+    border: 2px solid #63AFE6;
+}
+.team .owl-dots .owl-dot span {
+    border: 2px solid #63AFE6;
+}
+.download-app::before {
+    background: rgba(99,175,230, 0.9);
+}
+.change-log .changelog-timeline::before {
+    background: #63AFE6;
+}
+.change-log .changelog-timeline .timeline-single .icon {
+    color: #63AFE6;
+}
+.faqs .faq-single .faq-icon span {
+    background: #63AFE6;
+}
+.newsletter::before {
+    background: #63AFE6;
+}
+.newsletter form button {
+    color: #63AFE6;
+}
+.blog .blog-single figure figcaption ul.post-meta {
+    background: rgba(239, 73, 77, 0.9);
+}
+.blog .blog-single:hover figure figcaption h3 a,
+.blog .blog-single:hover figure figcaption ul.post-bottom li a {
+    color: #63AFE6;
+}
+.blog .blog-btn a {
+    background: #63AFE6;
+}
+.contact::before {
+    background: rgba(239, 73, 77, 0.95);
+}
+.contact .contact-details ul.contact-social li a {
+    color: #63AFE6;
+}
+.contact .contact-wrapper form .form-group button {
+    color: #63AFE6;
+}
+footer p i {
+    color: #63AFE6;
+}
+footer .footer-bottom-menu ul li a:hover {
+    color: #63AFE6;
+}
+footer p#back-top a:hover {
+    background: #63AFE6;
+    border-color: #63AFE6;
+}
+#hill {
+    border-left: .25em solid #63AFE6;
+}
+#box {
+    border: .25em solid #63AFE6;
+}
+.about-app2::before {
+    background: #63AFE6;
+}
+.about-app2 .app-info h2 span {
+    color: #333;
+}
+.about-app2 .app-info ul li::before {
+    color: #333;
+}
+.pages-header::before {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#63afe6+0,57c7b7+100 */
+  background: rgb(99,175,230); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(99,175,230,1) 0%, rgba(87,199,183,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(99,175,230,1) 0%,rgba(87,199,183,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(99,175,230,1) 0%,rgba(87,199,183,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63afe6', endColorstr='#57c7b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.blog-wrapper .blog-sidebar .sidebar-widget h3::before {
+    background: #63AFE6;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form button {
+    background: #63AFE6;
+    border: 1px solid #63AFE6;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form input:focus {
+    border-color: #63AFE6;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li::before,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li::before {
+    background: #63AFE6;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a:hover,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li a:hover {
+    color: #63AFE6;
+}
+.post-details .article-meta ul li a {
+    color: #63AFE6;
+}
+.post-details .article-content blockquote {
+    border: 4px double rgba(99,175,230, 0.4);
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li a:hover {
+    border-color: #63AFE6;
+    color: #63AFE6;
+}
+.post-details .article-content ul.blog-post-pagination li a:hover {
+    color: #63AFE6;
+}
+.post-details .post-comments ul.comment-list li .comment-details h3 {
+    color: #63AFE6;
+}
+.post-details .post-comments ul.comment-list li .comment-details a:hover {
+    color: #63AFE6;
+}
+.post-details .leave-comment form .form-group button {
+    background: #63AFE6;
+    border: 2px solid #63AFE6;
+}
+.post-details .leave-comment form .form-group button:hover {
+    color: #63AFE6;
+}
+.blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption {
+    background: rgba(99,175,230,.7)
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents h3 a:hover {
+    color: #63AFE6;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents ul li a:hover {
+    color: #63AFE6;
+}
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn a {
+    background: #63AFE6;
+    border-color: #63AFE6;
+}
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn::before {
+    background: #63AFE6;
+}
+.blog-wrapper .blog-content .blog-pagination ul li.active a {
+    background: #63AFE6;
+    border-color: #63AFE6;
+}
+.blog-wrapper .blog-content .blog-pagination ul li a:hover {
+    border-color: #63AFE6;
+    color: #63AFE6;
+}
+.get-notified form button {
+    color: #63AFE6;
+}
+.contact-main .section-header h2::before {
+    background: #63AFE6;
+}
+.contact-main .contact-wrapper form .form-group input:focus,
+.contact-main .contact-wrapper form .form-group textarea:focus {
+    border-color: #63AFE6;
+}
+.contact .contact-wrapper form .form-group button {
+    color: #63AFE6;
+}
+.contact-main .contact-details ul.contact-info-list li i {
+    color: #63AFE6;
+}
+
+.gallery-wrapper .portfolio-content figure:hover figcaption {
+    background: rgba(239, 73, 77, 0.9);
+}
+.gallery-wrapper .gallery-pagination ul li.active a {
+    background: #63AFE6;
+}
+.gallery-wrapper .gallery-pagination ul li a:hover {
+    background: #63AFE6;
+}
+.shop-wrapper .single-product figure figcaption {
+    background: rgba(239, 73, 77, 0.9);
+}
+.shop-wrapper .single-product figure figcaption div a {
+    color: #63AFE6;
+}
+.shop-wrapper .single-product .product-meta span {
+    color: #63AFE6;
+}
+.shop-wrapper .single-product .product-meta h3 a:hover {
+    color: #63AFE6;
+}
+.shop-wrapper .shop-pagination ul li.active a {
+    background: #63AFE6;
+}
+.shop-wrapper .shop-pagination ul li a:hover {
+    background: #63AFE6;
+}
+.product-details-container ul.product-rating li {
+    color: #63AFE6;
+}
+.product-details-container .p-price p {
+    color: #63AFE6;
+}
+.product-details-container ul.pd-btns li:first-child a {
+    background: #63AFE6;
+}
+.product-details-container ul.pd-btns li:first-child a:hover {
+    color: #63AFE6;
+}
+.product-details-container ul.pd-btns li a {
+    border: 1px solid #63AFE6;
+    color: #63AFE6;
+}
+.product-details-container ul.pd-btns li a:hover {
+    background: #63AFE6;
+}
+.team-wrapper .team-single figure figcaption {
+    background: rgba(239, 73, 77, 0.9);
+}
+.team-wrapper .team-single figure figcaption div ul li a:hover {
+    color: #63AFE6;
+}
+.contact-main .contact-wrapper form .form-group button {
+    color: #fff;
+    background: #63AFE6;
+}
+.panel-group .panel-heading {
+    border-bottom: 1px solid #63AFE6;
+}

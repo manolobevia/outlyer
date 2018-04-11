@@ -164,7 +164,7 @@ figure {
   top: 1.7em;
   left: 1.7em;
   background-color: transparent;
-  border-left: .25em solid #ef494d;
+  border-left: .25em solid $primary-color;
   -ms-transform: rotate(45deg);
       transform: rotate(45deg);
 }
@@ -183,7 +183,7 @@ figure {
   width: 1em;
   height: 1em;
   background-color: transparent;
-  border: .25em solid #ef494d;
+  border: .25em solid $primary-color;
   border-radius: 15%;
   -ms-transform: translate(0, -1em) rotate(-45deg);
       transform: translate(0, -1em) rotate(-45deg);
@@ -343,10 +343,10 @@ header .is-sticky nav.navbar {
     transition: 0.3s ease;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li a:hover {
-    color: #ef494d;
+    color: $primary-color;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a {
-    background: #ef494d;
+    background: $primary-color;
     color: #fff;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a:hover {
@@ -354,7 +354,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a:hover {
     color: #333;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li.active a {
-    color: #ef494d;
+    color: $primary-color;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li.active.nav-download-btn a {
     color: #333;
@@ -610,7 +610,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin: 0 0 40px 0;
 }
 .about-app .app-info h2 span {
-    color: #ef494d;
+    color: $primary-color;
     font-weight: 600;
 }
 .about-app .app-info ul {
@@ -632,7 +632,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     font-family: "FontAwesome";
     left: 0px;
     top: 0;
-    color: #ef494d;
+    color: $primary-color;
 }
 
 
@@ -2375,7 +2375,7 @@ footer{
     color: inherit;
 }
 .blog-wrapper .blog-content .blog-single .blog-single-contents h3 a:hover {
-    color: #ef494d;
+    color: $primary-color;
 }
 .blog-wrapper .blog-content .blog-single .blog-single-contents ul {
     margin-bottom: 15px;
@@ -2387,7 +2387,7 @@ footer{
     color: inherit;
 }
 .blog-wrapper .blog-content .blog-single .blog-single-contents ul li a:hover {
-    color: #ef494d;
+    color: $primary-color;
 }
 .blog-wrapper .blog-content .blog-single .blog-single-contents ul li:last-child {
     float: right;
@@ -2418,11 +2418,11 @@ footer{
     background: #fff;
 }
 .blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn:before {
-    background: #ef494d;
+    background: $primary-color;
 }
 .blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn a {
-    background: #ef494d;
-    border-color: #ef494d;
+    background: $primary-color;
+    border-color: $primary-color;
     color: #fff;
 }
 .blog-wrapper .blog-content .blog-pagination ul {
@@ -2445,12 +2445,12 @@ footer{
     color: inherit;
 }
 .blog-wrapper .blog-content .blog-pagination ul li a:hover {
-    border-color: #ef494d;
-    color: #ef494d;
+    border-color: $primary-color;
+    color: $primary-color;
 }
 .blog-wrapper .blog-content .blog-pagination ul li.active a {
-    background: #ef494d;
-    border-color: #ef494d;
+    background: $primary-color;
+    border-color: $primary-color;
     color: #fff;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget {
@@ -2472,7 +2472,7 @@ footer{
     height: 100%;
     left: 0;
     top: 0;
-    background: #ef494d;
+    background: $primary-color;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.search-widget form {
     position: relative;
@@ -2485,14 +2485,14 @@ footer{
     transition: 0.3s ease;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.search-widget form input:focus {
-    border-color: #ef494d;
+    border-color: $primary-color;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.search-widget form button {
     width: 45px;
     height: 45px;
-    background: #ef494d;
+    background: $primary-color;
     color: #fff;
-    border: 1px solid #ef494d;
+    border: 1px solid $primary-color;
     position: absolute;
     right: 0;
     top: 0;
@@ -2513,7 +2513,7 @@ footer{
     width: 10px;
     height: 1px;
     left: 0;
-    background: #ef494d;
+    background: $primary-color;
     top: 20px;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a,
@@ -2522,7 +2522,7 @@ footer{
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a:hover,
 .blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li a:hover {
-    color: #ef494d;
+    color: $primary-color;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul {
     margin-bottom: 0;
@@ -2542,8 +2542,8 @@ footer{
     color: #616161;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li a:hover {
-    color: #ef494d;
-    border-color: #ef494d;
+    color: $primary-color;
+    border-color: $primary-color;
 }
 
 
@@ -2573,7 +2573,7 @@ footer{
     padding-right: 6px;
 }
 .post-details .article-meta ul li a {
-    color: #ef494d;
+    color: $primary-color;
 }
 .post-details .article-content blockquote {
     background: none;
@@ -2595,7 +2595,7 @@ footer{
     font-weight: 700;
 }
 .post-details .article-content ul.blog-post-pagination li a:hover {
-    color: #ef494d;
+    color: $primary-color;
 }
 .post-details .post-comments {
     margin: 60px 0 0 0;
@@ -2623,7 +2623,7 @@ footer{
 }
 .post-details .post-comments ul.comment-list li .comment-details h3 {
     margin: 0 0 10px 0;
-    color: #ef494d;
+    color: $primary-color;
 }
 .post-details .post-comments ul.comment-list li .comment-details p {
     margin: 10px 0;
@@ -2633,7 +2633,7 @@ footer{
     font-weight: 500;
 }
 .post-details .post-comments ul.comment-list li .comment-details a:hover {
-    color: #ef494d;
+    color: $primary-color;
 }
 .post-details .post-comments ul.comment-list li ul.children {
     margin-left: 50px;
@@ -2670,8 +2670,8 @@ footer{
     margin-bottom: 30px;
 }
 .post-details .leave-comment form .form-group button {
-    border: 2px solid #ef494d;
-    background: #ef494d;
+    border: 2px solid $primary-color;
+    background: $primary-color;
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
@@ -2680,7 +2680,7 @@ footer{
 }
 .post-details .leave-comment form .form-group button:hover {
     background: none;
-    color: #ef494d;
+    color: $primary-color;
 }
 
 
@@ -2943,7 +2943,7 @@ Interior pages
     margin: 0 0 40px 0;
 }
 .interior-section .section-info h2 span {
-    color: #ef494d;
+    color: $primary-color;
     font-weight: 600;
 }
 .interior-section .section-info ul {
@@ -2965,5 +2965,5 @@ Interior pages
     font-family: "FontAwesome";
     left: 0px;
     top: 0;
-    color: #ef494d;
+    color: $primary-color;
 }

@@ -40,7 +40,7 @@
         margin: 0;
     }
     header nav.navbar .navbar-morki.collapse.in ul.nav li.nav-download-btn a {
-        background: #ef494d;
+        background: #63AFE6;
         color: #fff;
     }
     .navbar-default .navbar-toggle {
@@ -53,7 +53,7 @@
     }
     .navbar-default .navbar-toggle:hover .icon-bar,
     .navbar-default .navbar-toggle:focus .icon-bar {
-        background-color: #ef494d;
+        background-color: #63AFE6;
     }
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #fff;
@@ -259,7 +259,7 @@
         content: none;
     }
     .about-app2 {
-        background: #ef494d;
+        background: #63AFE6;
     }
     .about-app2 .app-info {
         margin-top: 50px;

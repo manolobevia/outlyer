@@ -1,4 +1,13 @@
 @media (max-width: 1200px) {
+
+    #main-nav .container {
+      width: 100%;
+      z-index: 999;
+      padding: 0;
+    }
+    .navbar-brand img {
+      padding-left: 15px;
+    }
     .navbar-header {
         float: none;
     }

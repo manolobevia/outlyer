@@ -278,10 +278,8 @@ header nav.navbar {
 }
 header nav.navbar .navbar-header {
     padding-top: 25px;
-	transition:0.3s ease;
-}
-header .is-sticky nav.navbar .navbar-header {
-    padding-top: 15px;
+    padding-bottom: 40px;
+	  transition:0.3s ease;
 }
 header nav.navbar .navbar-header a.navbar-brand {
     color: #fff;
@@ -292,10 +290,11 @@ header nav.navbar .navbar-header a.navbar-brand {
 }
 header nav.navbar .navbar-morki {
     padding-top: 25px;
-	transition:0.3s ease;
+	  transition:0.3s ease
 }
 header .is-sticky nav.navbar .navbar-morki {
     padding-top: 15px;
+    //padding-bottom: 45px;
 }
 header nav.navbar .navbar-morki ul.nav li a {
     background: none;
@@ -339,8 +338,6 @@ header .is-sticky {
 header .is-sticky nav.navbar {
     background: #333;
     margin-bottom: 0;
-    padding-bottom: 45px;
-    transition: 0.3s ease;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li a:hover {
     color: $primary-color;
@@ -358,6 +355,9 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active a {
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li.active.nav-download-btn a {
     color: #333;
+}
+.navbar-nav {
+  padding-top: 30px;
 }
 
 /* Dropdown Menu */

@@ -67,6 +67,17 @@
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #fff;
     }
+
+    header nav.navbar .navbar-morki {
+        margin-top: 0;
+    }
+
+    header nav.navbar .navbar-morki ul.nav li a:hover {
+        color: #63AFE6;
+    }
+    .navbar-nav {
+      padding-top: 0
+    }
 }
 
 /* Tablet Layout: 768px */
@@ -280,4 +291,6 @@
 }
 
 /* Wide Mobile Layout: 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

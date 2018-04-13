@@ -359,6 +359,11 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active.nav-download-btn a {
 .navbar-nav {
   padding-top: 30px;
 }
+.interior {
+    .nav.navbar-nav.navbar-right {
+      padding-top: 0;
+    }
+}
 
 /* Dropdown Menu */
 header nav.navbar .navbar-morki ul.nav li{

@@ -1,540 +1,534 @@
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-  <meta name="referrer" content="unsafe-url">
-  <link rel="preconnect" href="//cdn.segment.com" crossorigin="">
-  <link rel="preconnect" href="//api.segment.io" crossorigin="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="referrer" content="unsafe-url">
+    <link rel="preconnect" href="//cdn.segment.com" crossorigin="">
+    <link rel="preconnect" href="//api.segment.io" crossorigin="">
 
-  <title>Outlyer | Analytics &amp; Monitoring for Microservices</title>
-  <meta name="description" content="Analytics &amp; Monitoring for Developer and DevOps teams running Microservices. Works with Cloud, Container, Hybrid or On-Prem environments.">
-  <meta property="og:site_name" content="Outlyer">
-  <meta property="og:title" content="Outlyer | Analytics &amp; Monitoring for Microservices | Blog">
-  <meta property="og:description" content="Analytics &amp; Monitoring for Developer and DevOps teams running Microservices. Works with Cloud, Container, Hybrid or On-Prem environments.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://www.outlyer.com/media/open-graph/outlyer-1200x630.f2a20502.jpg">
-  <meta property="og:url" content="https://www.outlyer.com/">
-  <link rel="canonical" href="https://www.outlyer.com/">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@outlyerapp">
-  <link rel="shortcut icon" href="/media/favicon.ico">
+    <title>Outlyer | Analytics &amp; Monitoring for Microservices</title>
+    <meta name="description" content="Analytics &amp; Monitoring for Developer and DevOps teams running Microservices. Works with Cloud, Container, Hybrid or On-Prem environments.">
+    <meta property="og:site_name" content="Outlyer">
+    <meta property="og:title" content="Outlyer | Analytics &amp; Monitoring for Microservices | Blog">
+    <meta property="og:description" content="Analytics &amp; Monitoring for Developer and DevOps teams running Microservices. Works with Cloud, Container, Hybrid or On-Prem environments.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.outlyer.com/media/open-graph/outlyer-1200x630.f2a20502.jpg">
+    <meta property="og:url" content="https://www.outlyer.com/">
+    <link rel="canonical" href="https://www.outlyer.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@outlyerapp">
+    <link rel="shortcut icon" href="/media/favicon.ico">
 
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <!-- Google Web Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Lato:300,400,700,900" rel="stylesheet">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Font Aweosme -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <!-- Owl Carousel -->
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <!-- Magnific Popup -->
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <!-- Animate CSS -->
-  <link rel="stylesheet" href="css/animate.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Lato:300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Aweosme -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
 
-  <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-  <!-- Color Switcher -->
-  <link rel="stylesheet" href="css/colors/outlyer.css" id="color-switch">
-</head>
+    <!-- Color Switcher -->
+    <link rel="stylesheet" href="css/colors/outlyer.css" id="color-switch">
+  </head>
 
-<body class="interior">
-  <!-- Preloader -->
-  <!--<div class="preloader">
+  <body class="interior">
+    <!-- Preloader -->
+    <!--<div class="preloader">
     	<div id="loader">
 			<div id="box"></div>
 			<div id="hill"></div>
 		</div>
   </div>-->
-  <!-- Header -->
-  <header id="interior">
-    <nav class="navbar navbar-default" id="main-nav">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-morki">
+    <!-- Header -->
+    <header id="interior">
+      <nav class="navbar navbar-default" id="main-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-morki">
                               <span class="sr-only">Toggle navigation</span>
                               <span class="icon-bar"></span>
                               <span class="icon-bar"></span>
                               <span class="icon-bar"></span>
                           </button>
-              <a class="navbar-brand" href="index.html"><img src="images/outlyer-logo.svg" alt="Outlyer Logo"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-morki">
-              <ul class="nav navbar-nav navbar-right">
-                <!--<li class="active"><a href="#home" data-scroll>Home</a></li>-->
-                <li><a class="active" href="product" data-scroll>Product</a></li>
-                <li><a href="integrations" data-scroll>Integrations</a></li>
-                <li><a href="solutions" data-scroll>Solutions</a></li>
-                <li><a href="resources" data-scroll>Resources</a></li>
-                <li><a href="blog.html" data-scroll>Blog</a></li>
-                <li><a href="company.html" data-scroll>Company</a></li>
-                <li><a href="login" data-scroll>Login</a></li>
-                <li><a class="main-nav-btn" href="free-Trial" data-scroll>Free Trial</a></li>
-                <li><a class="main-nav-btn" href="request-Demo" data-scroll>Request Demo</a></li>
-                <!--<li class="nav-download-btn"><a href="#download-app" data-scroll>Download</a></li>-->
-              </ul>
-            </div>
-            <!-- .navbar-collapse -->
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- Ends: header -->
-
-  <!-- Page Header -->
-  <section class="pages-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="page-header-inner">
-            <div class="page-header-content">
-              <h1>PRODUCT</h1>
-            </div>
-          </div>
-        </div>
-        <!-- Ends: .col -->
-      </div>
-    </div>
-  </section>
-  <!-- Ends: .pages-header -->
-
-
-  <!-- About Section 2 columns-->
-
-  <section class="interior-section bg-off">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-sm-3">
-          <div class="app-image">
-
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-              <!-- menu / HOME -->
-              <div class="panel-heading" role="tab">
-                <h4 class="panel-title">
-                  <a role="button" href="#">HOME</a>
-                </h4>
+                <a class="navbar-brand" href="index.html"><img src="images/outlyer-logo.svg" alt="Outlyer Logo"></a>
               </div>
 
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-morki">
+                <ul class="nav navbar-nav navbar-right">
+                  <!--<li class="active"><a href="#home" data-scroll>Home</a></li>-->
+                  <li><a class="active" href="product" data-scroll>Product</a></li>
+                  <li><a href="integrations" data-scroll>Integrations</a></li>
+                  <li><a href="solutions" data-scroll>Solutions</a></li>
+                  <li><a href="resources" data-scroll>Resources</a></li>
+                  <li><a href="blog.html" data-scroll>Blog</a></li>
+                  <li><a href="company.html" data-scroll>Company</a></li>
+                  <li><a href="login" data-scroll>Login</a></li>
+                  <li><a class="main-nav-btn" href="free-Trial" data-scroll>Free Trial</a></li>
+                  <li><a class="main-nav-btn" href="request-Demo" data-scroll>Request Demo</a></li>
+                  <!--<li class="nav-download-btn"><a href="#download-app" data-scroll>Download</a></li>-->
+                </ul>
+              </div>
+              <!-- .navbar-collapse -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Ends: header -->
 
-              <!-- menu /PRODUCT-->
-              <div class="panel">
+    <!-- Page Header -->
+    <section class="pages-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="page-header-inner">
+              <div class="page-header-content">
+                <h1>PRODUCT</h1>
+              </div>
+            </div>
+          </div>
+          <!-- Ends: .col -->
+        </div>
+      </div>
+    </section>
+    <!-- Ends: .pages-header -->
 
+
+    <!-- About Section 2 columns-->
+
+    <section class="interior-section bg-off">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-3">
+            <div class="app-image">
+
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <!-- menu / HOME -->
                 <div class="panel-heading" role="tab">
                   <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="active">PRODUCT</a>
-                  </h4>
-                </div>
-
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                  <div class="panel-body">
-                    <p>Infrastructure monitoring </p>
-                    <p>Container monitoring </p>
-                    <p>(Kubernetes, Docker, </p>
-                    <p>Prometheus, Kafka)</p>
-                    <p>Server monitoring</p>
-                    <p>Database monitoring</p>
-                    <p>Features:</p>
-                    <p class="active"><b>Setup</b></p>
-                    <p> - Customization</p>
-                    <p> - Alert</p>
-                    <p> - Dashboard</p>
-                    <p> - Analytics</p>
-                    <p> - Host-map</p>
-                    <p> - Event</p>
-                    <p> - Collaboration</p>
-                    <p> - API</p>
-                    <p> - Pricing</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- menu / INTEGRATIONS-->
-              <div class="panel">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                  <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">INTEGRATIONS</a>
+                  <a role="button" href="#">HOME</a>
                 </h4>
                 </div>
 
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                  <div class="panel-body">
 
-                    <p>Amazon Web Services</li>
-                      <p>Apache</li>
-                        <p>AWS</li>
+                <!-- menu /PRODUCT-->
+                <div class="panel">
 
-                          <p> - AWS CloidWatch</p>
-                          <p> - AWS Kubernetes</p>
-                          <p> - AWS DynamoDB</p>
-                          <p> - AWS EC2</p>
-                          <p> - AWS ElastiCache</p>
-                          <p> - AWS Kinesis</p>
-                          <p> - AWS Lambda</p>
-                          <p> - AWS OpsWorks</p>
-                          <p> - AWS RDS</p>
-                          <p> - AWS Redshift</p>
-                          <p> - AWS SQS</p>
-                          <p> - AWS SNS</p>
+                  <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="active">PRODUCT</a>
+                  </h4>
+                  </div>
 
-                          <p>Courchbase</p>
-                          <p>Docker</p>
-                          <p>Elastic</p>
-                          <p>Kubernetes</p>
-                          <p>Google Analytics</p>
-                          <p>HAProxy</p>
-                          <p>Java</p>
-                          <p>Kafka</p>
-                          <p>Memcached</p>
-                          <p>Microsoft IIS</p>
-                          <p>MongoDB</p>
-                          <p>MySQL</p>
-                          <p>NGINX</p>
-                          <p>PHP</p>
-                          <p>Postfix</p>
-                          <p>PostgreSQL</p>
-                          <p>RabbitMQ</p>
-                          <p>Redis</p>
-                          <p>Riak</p>
-                          <p>Varnish</p>
-                          <p>Wordpress</p>
-                          <p>Prometheus</p>
-
+                  <div id="collapseOne" class="panel-collapse collapse in submenu" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <p>Infrastructure monitoring </p>
+                      <p>Container monitoring </p>
+                      <p>(Kubernetes, Docker, </p>
+                      <p>Prometheus, Kafka)</p>
+                      <p>Server monitoring</p>
+                      <p>Database monitoring</p>
+                      <p>Features:</p>
+                      <p class="active"><b>Setup</b></p>
+                      <p> - Customization</p>
+                      <p> - Alert</p>
+                      <p> - Dashboard</p>
+                      <p> - Analytics</p>
+                      <p> - Host-map</p>
+                      <p> - Event</p>
+                      <p> - Collaboration</p>
+                      <p> - API</p>
+                      <p> - Pricing</p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- menu -->
-              <div class="panel">
-                <div class="panel-heading" role="tab" id="headingThree">
-                  <h4 class="panel-title">
+                <!-- menu / INTEGRATIONS-->
+                <div class="panel">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">INTEGRATIONS</a>
+                </h4>
+                  </div>
+
+                  <div id="collapseTwo" class="panel-collapse collapse submenu" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+
+                      <p>Amazon Web Services</li>
+                        <p>Apache</li>
+                          <p>AWS</li>
+
+                            <p> - AWS CloidWatch</p>
+                            <p> - AWS Kubernetes</p>
+                            <p> - AWS DynamoDB</p>
+                            <p> - AWS EC2</p>
+                            <p> - AWS ElastiCache</p>
+                            <p> - AWS Kinesis</p>
+                            <p> - AWS Lambda</p>
+                            <p> - AWS OpsWorks</p>
+                            <p> - AWS RDS</p>
+                            <p> - AWS Redshift</p>
+                            <p> - AWS SQS</p>
+                            <p> - AWS SNS</p>
+
+                            <p>Courchbase</p>
+                            <p>Docker</p>
+                            <p>Elastic</p>
+                            <p>Kubernetes</p>
+                            <p>Google Analytics</p>
+                            <p>HAProxy</p>
+                            <p>Java</p>
+                            <p>Kafka</p>
+                            <p>Memcached</p>
+                            <p>Microsoft IIS</p>
+                            <p>MongoDB</p>
+                            <p>MySQL</p>
+                            <p>NGINX</p>
+                            <p>PHP</p>
+                            <p>Postfix</p>
+                            <p>PostgreSQL</p>
+                            <p>RabbitMQ</p>
+                            <p>Redis</p>
+                            <p>Riak</p>
+                            <p>Varnish</p>
+                            <p>Wordpress</p>
+                            <p>Prometheus</p>
+
+                    </div>
+                  </div>
+                </div>
+
+                <!-- menu -->
+                <div class="panel">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">SOLUTIONS</a>
                 </h4>
 
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <div class="panel-body">
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse submenu" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
 
-                    <p><b>By Role</b></p>
+                      <p><b>By Role</b></p>
 
-                    <p>- Operations Manager / CTO</p>
-                    <p>- DevOps Engineer</p>
-                    <p>- Developer</p>
+                      <p>- Operations Manager / CTO</p>
+                      <p>- DevOps Engineer</p>
+                      <p>- Developer</p>
 
 
-                    <p><b>By use case</b></p>
+                      <p><b>By use case</b></p>
 
-                    <p>- Consolidate your monitoring</p>
-                    <p>- Build Vs. Buy</p>
-                    <p>- Monitoring Alternative</p>
-                    <p>- Prometheus Alternative</p>
-                    <p>- Kubernetes monitoring</p>
-                    <p>- New Relic Alternative</p>
+                      <p>- Consolidate your monitoring</p>
+                      <p>- Build Vs. Buy</p>
+                      <p>- Monitoring Alternative</p>
+                      <p>- Prometheus Alternative</p>
+                      <p>- Kubernetes monitoring</p>
+                      <p>- New Relic Alternative</p>
 
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- menu / INTEGRATIONS-->
-              <div class="panel">
-                <div class="panel-heading" role="tab" id="headingFour">
-                  <h4 class="panel-title">
+                <!-- menu / INTEGRATIONS-->
+                <div class="panel">
+                  <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">RESOURCES</a>
                 </h4>
-                </div>
+                  </div>
 
-                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                  <div class="panel-body">
+                  <div id="collapseFour" class="panel-collapse collapse submenu" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body">
 
-                    <p>FREE trial</p>
-                    <p>Request demo</p>
-                    <p>White papers</p>
-                    <p>Webinar</p>
-                    <p>How to video</p>
-                    <p>Case studies</p>
-                    <p>Industry trend</p>
-                    <p>Technical Doc</p>
+                      <p>FREE trial</p>
+                      <p>Request demo</p>
+                      <p>White papers</p>
+                      <p>Webinar</p>
+                      <p>How to video</p>
+                      <p>Case studies</p>
+                      <p>Industry trend</p>
+                      <p>Technical Doc</p>
 
+                    </div>
                   </div>
                 </div>
-              </div>
 
 
-              <div class="panel-heading" role="tab">
-                <h4 class="panel-title">
+                <div class="panel-heading" role="tab">
+                  <h4 class="panel-title">
                   <a role="button" href="#">BLOG</a>
                 </h4>
-              </div>
+                </div>
 
 
 
 
-              <!-- menu / INTEGRATIONS-->
-              <div class="panel">
-                <div class="panel-heading" role="tab" id="headingFive">
-                  <h4 class="panel-title">
+                <!-- menu / INTEGRATIONS-->
+                <div class="panel">
+                  <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">COMPANY</a>
                 </h4>
-                </div>
+                  </div>
 
-                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                  <div class="panel-body">
+                  <div id="collapseFive" class="panel-collapse collapse submenu" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body">
 
-                    <p>FREE trial</p>
-                    <p>Request demo</p>
-                    <p>White papers</p>
-                    <p>Webinar</p>
-                    <p>How to video</p>
-                    <p>Case studies</p>
-                    <p>Industry trend</p>
-                    <p>Technical Doc</p>
+                      <p>FREE trial</p>
+                      <p>Request demo</p>
+                      <p>White papers</p>
+                      <p>Webinar</p>
+                      <p>How to video</p>
+                      <p>Case studies</p>
+                      <p>Industry trend</p>
+                      <p>Technical Doc</p>
 
+                    </div>
                   </div>
                 </div>
+
               </div>
 
 
-
-
-
-
-
-            </div>
-
-
-          </div>
-        </div>
-        <!-- Ends: .col-sm-6 -->
-
-        <div class="col-sm-9">
-          <div class=".section-info">
-            <h2>SETUP</h2>
-            <p>Deploy our agent across all your servers and Docker hosts in minutes to get instant visibility across your entire service.</p>
-
-            <p>Supports all major versions of Linux, Windows and Docker platforms Can be rolled out in minutes using our Ansible, Puppet, Chef & Salt modules or via your Container Orchestration tool such as Kubernetes, Mesos or Swarm Native Docker support
-              means Outlyer can monitor your container and non-container environments without any additional configuration required Setup all your service monitoring in minutes using built in agent auto-discovery that will automatically recognise what
-              you’re monitoring and install your integration packs for you Install integrations from our library in one click Open-source compatible, our agent runs Nagios checks, can scrape Prometheus endpoints and collect StatsD metrics without you
-              having to re-write all your monitoring
-
-            </p>
-            <img src="images/setup.png" alt="" class="img-responsive">
-          </div>
-        </div>
-        <!-- Ends: .col-sm-6 -->
-
-      </div>
-    </div>
-  </section>
-  <!-- Ends: .about-app -->
-
-
-  <!-- About Section One Column-->
-
-  <section class="interior-section bg-on">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class=".section-info">
-            <h2>Know more about our template <span>Morki</span> App Landing</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, illo. Veniam, sed. Dolorum, quaerat nemo. Illo architecto neque minus voluptatem. Fuga impedit harum, esse quos voluptatem maiores corrupti quisquam distinctio. Repellendus maiores
-              autem esse minima commodi voluptatem distinctio eveniet, quia. Aliquid repellat eveniet labore, dolore consequatur quasi dicta non voluptatem! Excepturi molestias maiores ducimus minima necessitatibus magni, voluptas modi aut? Minima commodi
-              voluptatem distinctio eveniet, quia. Aliquid repellat eveniet labore, dolore consequatur quasi dicta non voluptatem! Excepturi molestias maiores ducimus minima necessitatibus magni, voluptas modi aut?</p>
-
-          </div>
-        </div>
-        <!-- Ends: .col-sm-6 -->
-      </div>
-    </div>
-  </section>
-  <!-- Ends: .about-app -->
-
-
-
-  <!-- Our Customer -->
-  <section class="customers" id="customers">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-          <h2>Our Customers</h2>
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-
-          <ul>
-            <li><img src="images/customer-logos/bbc.png" alt="" class="img-responsive"></li>
-            <li><img src="images/customer-logos/crowd-cube.png" alt="" class="img-responsive"></li>
-            <li><img src="images/customer-logos/moz-Bylksuusbe.png" alt="" class="img-responsive"></li>
-            <li><img src="images/customer-logos/salesforce.png" alt="" class="img-responsive"></li>
-            <li><img src="images/customer-logos/tune.png" alt="" class="img-responsive"></li>
-          </ul>
-
-        </div>
-
-
-      </div>
-    </div>
-  </section>
-  <!-- Ends: .Customers -->
-
-  <!-- Newsletter -->
-  <section class="newsletter">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h3>Subscribe To Our Newsletter To Get Latest Updates &amp; News</h3>
-          <form action="#">
-            <input type="text" placeholder="Your Email" required>
-            <button type="submit">Subscribe</button>
-          </form>
-        </div>
-        <!-- Ends: .col-sm-12 -->
-      </div>
-    </div>
-  </section>
-  <!-- Ends: .newsletter -->
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <p> <img class="img-fluid" src="images/outlyer-logo-black.svg" width="200" alt="Outlyer"> </p>
-          <p class="lead">Monitoring, done differently.</p>
-          <p> The only monitoring tool that scales to thousands of servers and any number of teams. </p>
-        </div>
-        <div class="col-6 col-sm-9 col-md-6">
-          <div class="row">
-            <div class="col-12 col-sm-4">
-              <h6 class="text-uppercase">Product</h6>
-              <ul class="list-unstyled">
-                <li><a href="/features/">Features</a></li>
-                <li><a href="/why-us/">Why Us</a></li>
-                <li><a href="/pricing/">Plans &amp; Pricing</a></li>
-                <li><a href="/datadog-vs-outlyer/">Datadog vs. Outlyer</a></li>
-                <li><a href="/integrations/">Integrations</a></li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-4">
-              <h6 class="text-uppercase">Company</h6>
-              <ul class="list-unstyled">
-                <li><a href="about.html">About</a></li>
-                <li><a href="https://outlyer.recruiterbox.com/" target="_blank">Careers</a></li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-4">
-              <h6 class="text-uppercase">Resources</h6>
-              <ul class="list-unstyled">
-                <li><a href="https://docs.outlyer.com/">Documentation</a></li>
-                <li><a href="https://blog.outlyer.com/">Blog</a></li>
-                <li><a href="https://www.meetup.com/DevOps-Exchange-London/" target="_blank">DOXLON Meetup</a> </li>
-                <li><a href="https://www.meetup.com/DevOps-Exchange-SanFrancisco/" target="_blank">DOXSFO Meetup</a> </li>
-              </ul>
             </div>
           </div>
-        </div>
-        <div class="col-6 col-sm-3 col-md-2">
-          <div class="row">
-            <div class="col-12">
-              <h6 class="text-uppercase">Contact</h6>
-              <ul class="list-unstyled">
-                <li><a href="/contact/sales/">Sales</a></li>
-                <li><a href="https://support.outlyer.com/hc/en-us">Support</a></li>
-              </ul>
-              <p class="small"> <b>San Francisco, USA</b><br> <a href="https://goo.gl/maps/zFDuUm7EiBB2" target="_blank">650 California St., 7th Fl.<br>San Francisco CA 94108</a> </p>
-              <p class="small"> <b>London, UK</b><br> <a href="https://goo.gl/maps/FN5mLqTKfLt" target="_blank">180 King’s Cross Rd.<br>London WC1X 9DE</a> </p>
+          <!-- Ends: .col-sm-6 -->
+
+          <div class="col-sm-9">
+            <div class=".section-info">
+              <h2>SETUP</h2>
+              <p>Deploy our agent across all your servers and Docker hosts in minutes to get instant visibility across your entire service.</p>
+
+              <p>Supports all major versions of Linux, Windows and Docker platforms Can be rolled out in minutes using our Ansible, Puppet, Chef & Salt modules or via your Container Orchestration tool such as Kubernetes, Mesos or Swarm Native Docker support
+                means Outlyer can monitor your container and non-container environments without any additional configuration required Setup all your service monitoring in minutes using built in agent auto-discovery that will automatically recognise what
+                you’re monitoring and install your integration packs for you Install integrations from our library in one click Open-source compatible, our agent runs Nagios checks, can scrape Prometheus endpoints and collect StatsD metrics without you
+                having to re-write all your monitoring
+
+              </p>
+              <img src="images/setup.png" alt="" class="img-responsive">
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-8 col-md-4 social-icons">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://github.com/outlyerapp" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li class="list-inline-item"><a href="https://twitter.com/outlyerapp" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="https://facebook.com/outlyerapp" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="https://plus.google.com/+outlyer" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.youtube.com/outlyer" target="_blank"><i class="fa fa-youtube"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.linkedin.com/company/outlyer" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+          <!-- Ends: .col-sm-6 -->
+
         </div>
       </div>
-      <hr>
-      <div class="row justify-content-between align-items-center align-items-md-start">
-        <div class="col">
-          <ul class="list-inline">
-            <li class="list-inline-item">© 2017 Outlyer</li>
-            <li class="list-inline-item hidden-sm-down" aria-hidden="true">|</li>
-            <li class="list-inline-item"><a href="/terms-of-service/">Terms of Service</a></li>
-            <li class="list-inline-item hidden-sm-down" aria-hidden="true">|</li>
-            <li class="list-inline-item"><a href="/privacy-policy/">Privacy Policy</a></li>
-            <li class="list-inline-item hidden-sm-down" aria-hidden="true">|</li>
-            <li class="list-inline-item"><a href="https://status.outlyer.com/">System Status</a></li>
-          </ul>
+    </section>
+    <!-- Ends: .about-app -->
+
+
+    <!-- About Section One Column-->
+
+    <section class="interior-section bg-on">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class=".section-info">
+              <h2>Know more about our template <span>Morki</span> App Landing</h2>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, illo. Veniam, sed. Dolorum, quaerat nemo. Illo architecto neque minus voluptatem. Fuga impedit harum, esse quos voluptatem maiores corrupti quisquam distinctio. Repellendus maiores
+                autem esse minima commodi voluptatem distinctio eveniet, quia. Aliquid repellat eveniet labore, dolore consequatur quasi dicta non voluptatem! Excepturi molestias maiores ducimus minima necessitatibus magni, voluptas modi aut? Minima commodi
+                voluptatem distinctio eveniet, quia. Aliquid repellat eveniet labore, dolore consequatur quasi dicta non voluptatem! Excepturi molestias maiores ducimus minima necessitatibus magni, voluptas modi aut?</p>
+
+            </div>
+          </div>
+          <!-- Ends: .col-sm-6 -->
         </div>
-        <div class="col-auto"> </div>
       </div>
-    </div>
-  </footer>
+    </section>
+    <!-- Ends: .about-app -->
 
 
-  <!-- ===================================================
+
+    <!-- Our Customer -->
+    <section class="customers" id="customers">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <h2>Our Customers</h2>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+
+            <ul>
+              <li><img src="images/customer-logos/bbc.png" alt="" class="img-responsive"></li>
+              <li><img src="images/customer-logos/crowd-cube.png" alt="" class="img-responsive"></li>
+              <li><img src="images/customer-logos/moz-Bylksuusbe.png" alt="" class="img-responsive"></li>
+              <li><img src="images/customer-logos/salesforce.png" alt="" class="img-responsive"></li>
+              <li><img src="images/customer-logos/tune.png" alt="" class="img-responsive"></li>
+            </ul>
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- Ends: .Customers -->
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>Subscribe To Our Newsletter To Get Latest Updates &amp; News</h3>
+            <form action="#">
+              <input type="text" placeholder="Your Email" required>
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+          <!-- Ends: .col-sm-12 -->
+        </div>
+      </div>
+    </section>
+    <!-- Ends: .newsletter -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <p> <img class="img-fluid" src="images/outlyer-logo-black.svg" width="200" alt="Outlyer"> </p>
+            <p class="lead">Monitoring, done differently.</p>
+            <p> The only monitoring tool that scales to thousands of servers and any number of teams. </p>
+          </div>
+          <div class="col-6 col-sm-9 col-md-6">
+            <div class="row">
+              <div class="col-12 col-sm-4">
+                <h6 class="text-uppercase">Product</h6>
+                <ul class="list-unstyled">
+                  <li><a href="/features/">Features</a></li>
+                  <li><a href="/why-us/">Why Us</a></li>
+                  <li><a href="/pricing/">Plans &amp; Pricing</a></li>
+                  <li><a href="/datadog-vs-outlyer/">Datadog vs. Outlyer</a></li>
+                  <li><a href="/integrations/">Integrations</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-4">
+                <h6 class="text-uppercase">Company</h6>
+                <ul class="list-unstyled">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="https://outlyer.recruiterbox.com/" target="_blank">Careers</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-4">
+                <h6 class="text-uppercase">Resources</h6>
+                <ul class="list-unstyled">
+                  <li><a href="https://docs.outlyer.com/">Documentation</a></li>
+                  <li><a href="https://blog.outlyer.com/">Blog</a></li>
+                  <li><a href="https://www.meetup.com/DevOps-Exchange-London/" target="_blank">DOXLON Meetup</a> </li>
+                  <li><a href="https://www.meetup.com/DevOps-Exchange-SanFrancisco/" target="_blank">DOXSFO Meetup</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-2">
+            <div class="row">
+              <div class="col-12">
+                <h6 class="text-uppercase">Contact</h6>
+                <ul class="list-unstyled">
+                  <li><a href="/contact/sales/">Sales</a></li>
+                  <li><a href="https://support.outlyer.com/hc/en-us">Support</a></li>
+                </ul>
+                <p class="small"> <b>San Francisco, USA</b><br> <a href="https://goo.gl/maps/zFDuUm7EiBB2" target="_blank">650 California St., 7th Fl.<br>San Francisco CA 94108</a> </p>
+                <p class="small"> <b>London, UK</b><br> <a href="https://goo.gl/maps/FN5mLqTKfLt" target="_blank">180 King’s Cross Rd.<br>London WC1X 9DE</a> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-8 col-md-4 social-icons">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://github.com/outlyerapp" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/outlyerapp" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://facebook.com/outlyerapp" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="https://plus.google.com/+outlyer" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.youtube.com/outlyer" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/company/outlyer" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="row justify-content-between align-items-center align-items-md-start">
+          <div class="col">
+            <ul class="list-inline">
+              <li class="list-inline-item">© 2017 Outlyer</li>
+              <li class="list-inline-item hidden-sm-down" aria-hidden="true">|</li>
+              <li class="list-inline-item"><a href="/terms-of-service/">Terms of Service</a></li>
+              <li class="list-inline-item hidden-sm-down" aria-hidden="true">|</li>
+              <li class="list-inline-item"><a href="/privacy-policy/">Privacy Policy</a></li>
+              <li class="list-inline-item hidden-sm-down" aria-hidden="true">|</li>
+              <li class="list-inline-item"><a href="https://status.outlyer.com/">System Status</a></li>
+            </ul>
+          </div>
+          <div class="col-auto"> </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- ===================================================
 		Javascript Files
 	===================================================== -->
-  <!-- jQuery Library -->
-  <script src="js/jquery-1.12.0.min.js"></script>
-  <!-- Boostrap JS -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- Owl Carousel -->
-  <script src="js/owl.carousel.min.js"></script>
-  <!-- Sticky JS -->
-  <script src="js/jquery.sticky.js"></script>
-  <!-- Smooth Scroll -->
-  <script src="js/smooth-scroll.js"></script>
-  <!-- Magnific Popup -->
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <!-- Counter Up -->
-  <script src="js/jquery.counterup.min.js"></script>
-  <script src="js/waypoints.min.js"></script>
-  <!-- SymoTimer -->
-  <script src="js/jquery.syotimer.min.js"></script>
-  <!-- WOW JS -->
-  <script src="js/wow.min.js"></script>
-  <!-- Custom JS -->
-  <script src="js/plugins.js"></script>
-  <script src="js/custom.js"></script>
-</body>
+    <!-- jQuery Library -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Boostrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Sticky JS -->
+    <script src="js/jquery.sticky.js"></script>
+    <!-- Smooth Scroll -->
+    <script src="js/smooth-scroll.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Counter Up -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- SymoTimer -->
+    <script src="js/jquery.syotimer.min.js"></script>
+    <!-- WOW JS -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/plugins.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 
 </html>

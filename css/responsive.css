@@ -45,6 +45,10 @@
         background: #333333;
         padding-bottom: 30px;
     }
+    .submenu {
+      background-color: #fff !important;
+    }
+
     .collapse.in ul {
         margin: 0;
     }

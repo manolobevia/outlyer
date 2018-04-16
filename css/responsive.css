@@ -352,10 +352,3 @@
     }
 
 }
-
-@media only screen and (max-width: 480px) {
-
-  .intro .intro-image {
-      height: 300px;
-    }
-  }

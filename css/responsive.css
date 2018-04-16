@@ -104,6 +104,29 @@
         border-color: #333;
       }
     }
+
+
+
+    /* Our Customer */
+
+    .customers .row div:first-child h2 {
+      width: 100%;
+      text-align: center;
+    }
+    .customers .row div:first-child ul {
+      text-align: center;
+      border: 1px solid red;
+    }
+
+    .home-sections,
+    .solutions,
+    .news {
+        padding: 60px 0;
+    }
+
+    .news .section-header {
+        margin-bottom: 20px;
+    }
 }
 
 /* Tablet Layout: 768px */
@@ -319,4 +342,20 @@
 /* Wide Mobile Layout: 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+  .home-sections .app-info {
+    margin-top: 10px;
+  }
+
+  .home-sections .app-info h2,
+  .home-sections .app-info p {
+      text-align: center;
+    }
+
 }
+
+@media only screen and (max-width: 480px) {
+
+  .intro .intro-image {
+      height: 300px;
+    }
+  }

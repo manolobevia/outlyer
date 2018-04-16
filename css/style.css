@@ -465,7 +465,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
   .customers .row div:last-child {
     padding: 0;
     margin-top: 10px;
-    text-align: right; }
+    text-align: center; }
   .customers li {
     display: inline-block;
     vertical-align: middle; }

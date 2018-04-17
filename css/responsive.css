@@ -1,367 +1,370 @@
 @media (max-width: 1200px) {
+  #main-nav .container {
+    width: 100%;
+    z-index: 999;
+    padding: 0; }
 
-    #main-nav .container {
-      width: 100%;
-      z-index: 999;
-      padding: 0;
-    }
-    .navbar-brand img {
-      padding-left: 15px;
-    }
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,
-    .navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in {
-        display: block !important;
-        background: #333333;
-        padding-bottom: 30px;
-    }
-    .submenu {
-      background-color: #fff !important;
-    }
+  .navbar-brand img {
+    padding-left: 15px; }
 
-    .collapse.in ul {
-        margin: 0;
-    }
-    header nav.navbar .navbar-morki.collapse.in ul.nav li.nav-download-btn a {
-        background: #63AFE6;
-        color: #fff;
-    }
-    .navbar-default .navbar-toggle {
-        border: 0 none;
-        transition: 0.3s ease;
-    }
-    .navbar-default .navbar-toggle:hover,
-    .navbar-default .navbar-toggle:focus {
-        background: #fff;
-    }
-    .navbar-default .navbar-toggle:hover .icon-bar,
-    .navbar-default .navbar-toggle:focus .icon-bar {
-        background-color: #63AFE6;
-    }
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #fff;
-    }
+  .navbar-header {
+    float: none; }
 
-    header nav.navbar .navbar-morki {
-        margin-top: 0;
-    }
+  .navbar-left,
+  .navbar-right {
+    float: none !important; }
 
-    header nav.navbar .navbar-morki ul.nav li a:hover {
-        color: #63AFE6;
-    }
-    .navbar-nav {
-      padding-top: 0
-    }
-    header nav.navbar .navbar-morki ul.nav li a.active {
-      color: gray !important;
-    }
-    .main-nav-btn {
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px; }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px; }
+
+  .navbar-nav > li {
+    float: none; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .collapse.in {
+    display: block !important;
+    background: #333333;
+    padding-bottom: 30px; }
+
+  .submenu {
+    background-color: #fff !important; }
+
+  .collapse.in ul {
+    margin: 0; }
+
+  header nav.navbar .navbar-morki.collapse.in ul.nav li.nav-download-btn a {
+    background: #63AFE6;
+    color: #fff; }
+
+  .navbar-default .navbar-toggle {
+    border: 0 none;
+    transition: 0.3s ease; }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background: #fff; }
+
+  .navbar-default .navbar-toggle:hover .icon-bar,
+  .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #63AFE6; }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff; }
+
+  header nav.navbar .navbar-morki {
+    margin-top: 0; }
+
+  header nav.navbar .navbar-morki ul.nav li a:hover {
+    color: #63AFE6; }
+
+  .navbar-nav {
+    padding-top: 0; }
+
+  header nav.navbar .navbar-morki ul.nav li a.active {
+    color: gray !important; }
+
+  .main-nav-btn {
+    color: #fff;
+    display: inline-block !important;
+    padding: 7px 12px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 150px;
+    text-align: center; }
+    .main-nav-btn:hover {
+      background: #333;
       color: #fff;
-      display: inline-block !important;
-      padding: 7px 12px;
-      border: 2px solid #fff;
-      border-radius: 3px;
-      text-transform: uppercase;
-      font-weight: 700;
-      margin-top: 5px;
-      margin-right: 10px;
-      width: 150px;
-      text-align: center;
+      border-color: #333; }
 
-      &:hover {
-        background: #333;
-        color: #fff;
-        border-color: #333;
-      }
-    }
+  /* Our Customer */
+  .customers .row div:first-child h2 {
+    width: 100%;
+    text-align: center; }
 
+  .customers .row div:first-child ul {
+    text-align: center; }
 
+  .home-sections,
+  .solutions,
+  .news {
+    padding: 60px 0; }
 
-    /* Our Customer */
-
-    .customers .row div:first-child h2 {
-      width: 100%;
-      text-align: center;
-    }
-    .customers .row div:first-child ul {
-      text-align: center;
-      border: 1px solid red;
-    }
-
-    .home-sections,
-    .solutions,
-    .news {
-        padding: 60px 0;
-    }
-
-    .news .section-header {
-        margin-bottom: 20px;
-    }
-}
-
+  .news .section-header {
+    margin-bottom: 20px; } }
 /* Tablet Layout: 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .intro {
-        min-height: 600px;
-    }
-    .intro .intro-info .intro-info-content h1 {
-        font-size: 35px;
-        line-height: 50px;
-    }
-    .intro .intro-info .intro-info-content ul li a {
-        padding: 10px 25px;
-    }
-    .intro .intro-info,
-    .intro .intro-image {
-        height: 500px;
-    }
-    .intro .intro-image .intro-image-content {
-        margin-top: 50px;
-        position: static;
-        top: auto;
-        -ms-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-    .services {
-        padding-bottom: 70px;
-    }
-    .services .service-box {
-        margin-bottom: 50px;
-    }
-    .about-app .app-info {
-        margin-top: 0;
-    }
-    .app-features .features-left {
-        padding-bottom: 80px;
-    }
-    .price-table {
-        padding-bottom: 70px;
-    }
-    .price-table .price-table-wrapper {
-        margin-bottom: 50px;
-    }
-    .blog .blog-single figure figcaption ul.post-meta {
-        position: static;
-        text-align: center;
-        top: 0;
-    }
-    .blog .blog-single figure figcaption ul.post-meta li:last-child {
-        float: none;
-    }
-    .contact .contact-details ul.contact-social li {
-        padding-bottom: 15px;
-    }
-    footer p {
-        text-align: left;
-        margin-bottom: 10px;
-    }
-    footer .footer-bottom-menu ul {
-        text-align: center;
-    }
-    .blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption {
-        min-height: 100px;
-        min-width: 100px;
-    }
-}
+  .intro {
+    min-height: 600px; }
 
+  .intro .intro-info .intro-info-content h1 {
+    font-size: 35px;
+    line-height: 50px; }
+
+  .intro .intro-info .intro-info-content ul li a {
+    padding: 10px 25px; }
+
+  .intro .intro-info,
+  .intro .intro-image {
+    height: 600px; }
+
+  .intro .intro-image .intro-image-content {
+    margin-top: 50px;
+    position: static;
+    top: auto;
+    -ms-transform: translateY(0px);
+    transform: translateY(0px); }
+
+  .services {
+    padding-bottom: 70px; }
+
+  .services .service-box {
+    margin-bottom: 50px; }
+
+  .about-app .app-info {
+    margin-top: 0; }
+
+  .app-features .features-left {
+    padding-bottom: 80px; }
+
+  .price-table {
+    padding-bottom: 70px; }
+
+  .price-table .price-table-wrapper {
+    margin-bottom: 50px; }
+
+  .blog .blog-single figure figcaption ul.post-meta {
+    position: static;
+    text-align: center;
+    top: 0; }
+
+  .blog .blog-single figure figcaption ul.post-meta li:last-child {
+    float: none; }
+
+  .contact .contact-details ul.contact-social li {
+    padding-bottom: 15px; }
+
+  footer p {
+    text-align: left;
+    margin-bottom: 10px; }
+
+  footer .footer-bottom-menu ul {
+    text-align: center; }
+
+  .blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption {
+    min-height: 100px;
+    min-width: 100px; } }
 /* Mobile Layout: 320px */
 @media only screen and (max-width: 767px) {
-    .intro .intro-info {
-        height: 500px;
-    }
-	.intro.intro-style2{
-		height:1000px;
-	}
-    .intro .intro-info .intro-info-content h1 {
-        font-size: 25px;
-        line-height: 45px;
-		margin-top:100px;
-    }
-    .intro .intro-info .intro-info-content ul li {
-        margin-bottom: 15px;
-        margin-right: 15px;
-    }
-    .intro .intro-info .intro-info-content ul li a {
-        padding: 10px 30px;
-    }
-    .intro .intro-info .intro-info-content {
-        padding: 0 30px;
-    }
-    .intro .intro-image .intro-image-content {
-        -ms-transform: translateY(-60%);
-        transform: translateY(-60%);
-        padding: 0 30px;
-    }
-    .services {
-        padding-bottom: 90px;
-    }
-    .services .service-box {
-        margin-bottom: 30px;
-    }
-    .about-app .app-info {
-        margin-top: 0;
-        margin-bottom: 50px;
-    }
-    .app-features .features-left {
-        padding-top: 0;
-        padding-bottom: 80px;
-    }
-    .gallery-info {
-        margin-bottom: 50px;
-    }
-    .counters {
-        padding-bottom: 40px;
-    }
-    .counter-box {
-        margin-bottom: 80px;
-    }
-    .price-table {
-        padding-bottom: 70px;
-    }
-    .price-table .price-table-wrapper {
-        margin-bottom: 50px;
-    }
-    .faqs .col-sm-6:last-child {
-        margin-top: 50px;
-    }
-    .blog {
-        padding-bottom: 70px;
-    }
-    .blog-single {
-        margin-bottom: 50px;
-    }
-    .clients-logo {
-        padding-bottom: 50px;
-    }
-    .clients-logo .col-xs-6 {
-        margin-bottom: 50px;
-        text-align: center;
-    }
-    .clients-logo .col-xs-6 img {
-        display: inline;
-    }
-    .contact-details {
-        margin-top: 50px;
-    }
-    footer p {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-    footer .footer-bottom-menu ul {
-        text-align: center;
-    }
-    footer p#back-top {
-        right: 15px;
-    }
-    footer ul {
-      text-align: center;
-    }
-    footer h6 {
-      text-align: center;
-    }
-    .download-app ul li {
-        margin-bottom: 20px;
-    }
-    .change-log .changelog-timeline .timeline-single .content-left {
-        padding-right: 35px;
-    }
-    .change-log .changelog-timeline .timeline-single .content-right {
-        padding-left: 35px;
-    }
-    .newsletter form {
-        width: 100%;
-    }
-    .get-notified form {
-        width: 100%;
-    }
-    .intro-style3 .intro-image {
-        height: 480px;
-    }
-    .intro-style3 .intro-image .intro-image-content {
-        -ms-transform: translateY(0);
-        transform: translateY(0);
-        position: static;
-    }
-    .blog-sidebar {
-        margin-top: 100px;
-    }
-    .pages-header .page-header-inner {
-        overflow: hidden;
-    }
-    .shop-wrapper .single-product figure {
-        text-align: center;
-    }
-    .shop-wrapper .single-product figure img {
-        display: inline-block;
-    }
-    .about-app2::before {
-        content: none;
-    }
-    .about-app2 {
-        background: #63AFE6;
-    }
-    .about-app2 .app-info {
-        margin-top: 50px;
-    }
-	.intro .intro-image .intro-image-content{
-		position:static;
-		transform:translateY(20%);
-	}
-}
+  .intro .intro-info {
+    height: 500px; }
 
-/* Wide Mobile Layout: 480px */
+  .intro.intro-style2 {
+    height: 1000px; }
+
+  .intro .intro-info .intro-info-content h1 {
+    font-size: 25px;
+    line-height: 45px;
+    margin-top: 100px; }
+
+  .intro .intro-info .intro-info-content ul li {
+    margin-bottom: 15px;
+    margin-right: 15px; }
+
+  .intro .intro-info .intro-info-content ul li a {
+    padding: 10px 30px; }
+
+  .intro .intro-info .intro-info-content {
+    padding: 0 30px; }
+
+  .intro .intro-image .intro-image-content {
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%);
+    padding: 0 30px; }
+    .intro .intro-image .intro-image-content img {
+      display: inline-block; }
+
+  .services {
+    padding-bottom: 90px; }
+
+  .services .service-box {
+    margin-bottom: 30px; }
+
+  .about-app .app-info {
+    margin-top: 0;
+    margin-bottom: 50px; }
+
+  .app-features .features-left {
+    padding-top: 0;
+    padding-bottom: 80px; }
+
+  .gallery-info {
+    margin-bottom: 50px; }
+
+  .counters {
+    padding-bottom: 40px; }
+
+  .counter-box {
+    margin-bottom: 80px; }
+
+  .price-table {
+    padding-bottom: 70px; }
+
+  .price-table .price-table-wrapper {
+    margin-bottom: 50px; }
+
+  .faqs .col-sm-6:last-child {
+    margin-top: 50px; }
+
+  .blog {
+    padding-bottom: 70px; }
+
+  .blog-single {
+    margin-bottom: 50px; }
+
+  .clients-logo {
+    padding-bottom: 50px; }
+
+  .clients-logo .col-xs-6 {
+    margin-bottom: 50px;
+    text-align: center; }
+
+  .clients-logo .col-xs-6 img {
+    display: inline; }
+
+  .contact-details {
+    margin-top: 50px; }
+
+  footer p {
+    text-align: center;
+    margin-bottom: 15px; }
+
+  footer .footer-bottom-menu ul {
+    text-align: center; }
+
+  footer p#back-top {
+    right: 15px; }
+
+  footer ul {
+    text-align: center; }
+
+  footer h6 {
+    text-align: center; }
+
+  .download-app ul li {
+    margin-bottom: 20px; }
+
+  .change-log .changelog-timeline .timeline-single .content-left {
+    padding-right: 35px; }
+
+  .change-log .changelog-timeline .timeline-single .content-right {
+    padding-left: 35px; }
+
+  .newsletter form {
+    width: 100%; }
+
+  .get-notified form {
+    width: 100%; }
+
+  .intro-style3 .intro-image {
+    height: 480px; }
+
+  .intro-style3 .intro-image .intro-image-content {
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    position: static; }
+
+  .blog-sidebar {
+    margin-top: 100px; }
+
+  .pages-header .page-header-inner {
+    overflow: hidden; }
+
+  .shop-wrapper .single-product figure {
+    text-align: center; }
+
+  .shop-wrapper .single-product figure img {
+    display: inline-block; }
+
+  .about-app2::before {
+    content: none; }
+
+  .about-app2 {
+    background: #63AFE6; }
+
+  .about-app2 .app-info {
+    margin-top: 50px; }
+
+  .intro .intro-image .intro-image-content {
+    position: static;
+    transform: translateY(20%); } }
 @media only screen and (max-width: 767px) {
+  .intro .intro-info .intro-info-content h1 {
+    line-height: 33px;
+    font-size: 50px;
+    line-height: 1.2em; }
+
+  .intro .intro-image {
+    height: auto;
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 80px; }
 
   .home-sections .app-info {
-    margin-top: 10px;
-  }
+    margin-top: 10px; }
 
   .home-sections .app-info h2,
   .home-sections .app-info p {
-      text-align: center;
-      padding-right: 10px;
-      padding-left: 10px;
-      color: red;
-    }
-
-}
-
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px; } }
+/* Wide Mobile Layout: 480px */
 @media only screen and (max-width: 480px) {
-  .home-sections .app-info h2,
-  .home-sections .app-info p {
+  .intro .intro-info .intro-info-content h1 {
+    line-height: 33px;
+    font-size: 32px;
+    line-height: 1.2em; }
+
+  .customers {
+    padding-top: 20px; }
+
+  .home-sections {
+    padding: 30px 0; }
+    .home-sections .app-info p, .home-sections .app-info h2 {
       text-align: center;
       padding-right: 10px;
-      padding-left: 10px;
-      color: blue;
-    }
-}
+      padding-left: 10px; }
+
+  .solutions {
+    padding: 50px 0;
+    padding-bottom: 20px; }
+    .solutions .section-header {
+      margin-bottom: 20px; }
+
+  .news {
+    padding: 30px 0; }
+    .news .blog-single {
+      padding-bottom: 50px; } }
+
+/*# sourceMappingURL=responsive.css.map */
